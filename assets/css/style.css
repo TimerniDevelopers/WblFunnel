@@ -969,12 +969,7 @@ input[type=number] {
     font-weight: 700;
 }
 
-@media (max-width: 768px) {
-    .common-title {
-        font-size: 25px;
-    }
 
-}
 /* Common Page Title */
 .pageTitle {
     font-size: 55px;
@@ -1569,19 +1564,28 @@ footer ul li a:hover {
         font-size: 18px;
     }
     .hero-slider p {
-        font-size: 20px;
+        font-size: 19px;
     }
     .section-content h5 {
-        font-size: 24px;
+        font-size: 19px;
     }
     .common-title {
-        font-size: 26px;
+        font-size: 23px;
     }
     .common-title br{
        display: none;
     }
     .com-btn{
         padding: 12px 15px;
+    }
+    .program-area .nav .nav-item button {
+        font-size: 18px;
+    }
+    .program-area .nav .nav-link{
+        padding: .5rem .5rem;
+    }
+   .program-area .nav{
+        padding-bottom: 20px
     }
 }
 @media (max-width:767px) {
@@ -1726,7 +1730,9 @@ footer ul li a:hover {
     z-index: 333;
     text-align: left;
 }
-
+.wbl-compare-c .tier-num.active {
+    border:1px solid #902a8b4f;
+}
 .wbl-compare-c .tier-num .tier-t {
     font-family: 'Inter', sans-serif;
     line-height: 10px;
