@@ -125,7 +125,10 @@ $(document).ready(function($) {
 				items: 2,
 				stagePadding: 25,
 			  },
-			  1000:{
+			  991:{
+				items: 2,
+			  },
+			  1200:{
 				items: 3,
 			  }
 			}
@@ -204,6 +207,24 @@ $('.accordion-section-title').click(function(e) {
             delay: 10,
             time: 3000
           });
+		     // JavaScript to toggle active class and show content
+			 const menuItems = document.querySelectorAll('.tier-num');
+			 const contents = document.querySelectorAll('.program-content');
+		 
+			 menuItems.forEach(item => {
+			   item.addEventListener('click', () => {
+				 // Remove active class from all menu items
+				 menuItems.forEach(i => i.classList.remove('active'));
+				 // Hide all contents
+				 contents.forEach(c => c.classList.remove('active'));
+		 
+				 // Add active class to clicked menu item
+				 item.classList.add('active');
+				 // Show corresponding content
+				 const target = item.getAttribute('data-target');
+				 document.getElementById(target).classList.add('active');
+			   });
+			 });
 		  
 
 });

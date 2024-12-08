@@ -965,13 +965,13 @@ input[type=number] {
 /* Common Title */
 
 .common-title {
-    font-size: 39px;
+    font-size: 32px;
     font-weight: 700;
 }
 
 @media (max-width: 768px) {
     .common-title {
-        font-size: 29px;
+        font-size: 25px;
     }
 
 }
@@ -1575,7 +1575,7 @@ footer ul li a:hover {
         font-size: 24px;
     }
     .common-title {
-        font-size: 35px;
+        font-size: 26px;
     }
     .common-title br{
        display: none;
@@ -1635,8 +1635,8 @@ footer ul li a:hover {
 }
 .counter-area li{
     width: 33.333%;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #fff;
     text-align: center;
 }
@@ -1644,9 +1644,9 @@ footer ul li a:hover {
     border-left: 1px solid rgb(129, 138, 145);
     border-right: 1px solid rgb(129, 138, 145);
 }
-.counter-area  li:nth-child(3) {
+/* .counter-area  li:nth-child(3) {
     border-right: 1px solid rgb(129, 138, 145);
-}
+} */
 .counter-area li h3 {
     font-size: 35px;
     font-weight: 600;
@@ -1847,8 +1847,41 @@ top:160px; */
 .wbl-compare-c:nth-child(5) .tier-num span {
     background: linear-gradient(90deg, #ADFF92 0.68%, #48822B 99.68%);
 }
+.tier-num{
+    transition: background-color 0.3s, color 0.3s;
+}
+   /* Content styles */
+   .program-content {
+    display: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .program-content.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
 .c-title{
     color: #902a8bd6;
+}
+.c-title1{
+    color: #902a8bd6;
+}
+.c-title2{
+    color: #2F72B5;
+}
+.c-title3{
+    color: #D4A12E;
+}
+.c-title4{
+    color: #5D5292;
+}
+.c-title5{
+    color:#5A9360;
 }
 .program-content p{
     font-size: 16px;
@@ -1866,6 +1899,9 @@ top:160px; */
 .we-do-box .box-detail {
     padding-left: 17px;
     padding-right: 17px;
+}
+.c-title {
+    font-size: 22px;
 }
 .success-carousel.owl-theme button.owl-next,
 .success-carousel.owl-theme button.owl-prev,
@@ -2005,12 +2041,15 @@ top:160px; */
   .vodcaster-name{
     font-weight: 800;
     color: #fff;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 1;
     margin-bottom: 5px;
   }
   .vodcaster-name:hover{
     color: #902a8b;
+  }
+  .vodcaster-name br{
+    display: none;
   }
   .vodcast-his hr {
     width: 10px;
@@ -2057,8 +2096,9 @@ top:160px; */
     height: 50vh;
 }
 @media (max-width: 991px) {
+    
     .vodcaster-name {
-        font-size: 25px;
+        font-size: 24px;
     }
     .vodcaster-desi {
         font-size: 20px;
@@ -2282,6 +2322,13 @@ Testimonial Section Two
 .success-area {
     position: relative;
 }
+.program-content-two ul li{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.program-content-two ul li span{
+    font-weight:600;
+}
 
 @media only screen and (max-width: 991.99px) {
     .accordion .accordion-section-title {
@@ -2449,3 +2496,12 @@ Testimonial Section Two
 .btn-modal:focus {
     background: #902a8b !important;
 }
+@media (min-width: 991px) and (max-width: 1199.98px) {
+    .wbl-compare-c .tier-num {
+        padding: 13px;
+        width: 254px;
+    }
+    .vodcaster-name{
+        font-size: 25px;
+    } 
+ }
