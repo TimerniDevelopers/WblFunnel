@@ -2147,8 +2147,11 @@ Testimonial Section Two
     .testimonial-section-two .owl-nav {
       bottom: -50px;
     }
+    .testimonial-section-two .common-title {
+        font-size: 27px;
+    }
   }
-  @media (max-width: 1199.98px) {
+  @media (max-width: 991.98px) {
     .testimonial-section-two .owl-nav {
       display: none;
     }
@@ -2512,6 +2515,7 @@ Testimonial Section Two
     } 
  }
 
+
  .socialList {
     list-style: none;
     margin: 0;
@@ -2569,3 +2573,8 @@ Testimonial Section Two
  .socialList li:nth-child(5) a {
     background-color: #1FB381;
   } */
+  @media (min-width: 767px) and (max-width: 1199.98px) {
+    .calendar-modal  .modal-dialog {
+        max-width: 750px;
+    }
+ }
