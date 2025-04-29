@@ -20,45 +20,125 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-  <!-- header section start -->
-  <header id="myHeader">
-      <div class="container">
-          <nav class="navbar navbar-expand-lg">
-              <div class="container-fluid p-0">
-                  <!-- Header Logo -->
-                  <a class="navbar-brand" href="index.html">
-                      <img src="assets/img/logo.png" alt="WBL Funnel" loading="lazy" class="light-logo img-fluid">
-                  </a>
-                  <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                      aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav ms-auto">
-                          <!-- Nav Links -->
-                          <li class="nav-item active">
-                              <a class="nav-link" aria-current="page" href="#work-permit">Work-Permit </a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="#phd">PHD</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="#phd">WBL</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="javascript:void(0);" class="com-btn btn-red1 mt-4 position-relative" data-bs-toggle="modal" data-bs-target="#exampleModalCalendar">
-                                Secure Your Spot Now
-                            </a>
-                          </li>
-                      </ul>
-                  </div>
-              </div>
-          </nav>
-      </div>
-  </header>
+ <!-- sidebar area start -->
+ <div class="sidebar__area ">
+     <div class="sidebar__wrapper">
+         <div class="sidebar__close">
+             <button class="sidebar__close-btn" id="sidebar__close-btn">
+                 <i class="fas fa-times"></i>
+             </button>
+         </div>
+         <div class="sidebar__content">
+             <div class="sidebar__logo mb-40">
+                 <a href="index.html">
+                     <img src="assets/img/logo.png" alt="logo" width="100">
+                 </a>
+             </div>
+             <div class="sidebar__search mb-25">
+                 <form action="#">
+                     <input type="text" placeholder="What are you searching for?">
+                     <button type="submit"><i class="fas fa-search"></i></button>
+                 </form>
+             </div>
+             <div class="mobile-menu fix"></div>
+             <div class="sidebar__contact mt-30 mb-20">
+                 <h4>Contact Info</h4>
+                 <ul>
+                     <li class="d-flex align-items-center">
+                         <div class="sidebar__contact-icon mr-15">
+                             <i class="fas fa-map-marker-alt"></i>
+                         </div>
+                         <div class="sidebar__contact-text">
+                             <a target="_blank" href="https://maps.app.goo.gl/8cPU11UzjbcEwtpq6">Halpern House, 1-2
+                                 Hampshire Terrace, Portsmouth, PO1 2Q, UK</a>
+                         </div>
+                     </li>
+                     <li class="d-flex align-items-center">
+                         <div class="sidebar__contact-icon mr-15">
+                             <i class="far fa-phone"></i>
+                         </div>
+                         <div class="sidebar__contact-text">
+                             <a href="tel:+44 (0) 238 052 8262">+44 (0) 238 052 8262</a>
+                         </div>
+                     </li>
+                     <li class="d-flex align-items-center">
+                         <div class="sidebar__contact-icon mr-15">
+                             <i class="fas fa-envelope"></i>
+                         </div>
+                         <div class="sidebar__contact-text">
+                             <a href="mailto:hello@bytestore.xyz"><span
+                                     class="__cf_email__">hello@bytestore.xyz</span></a>
+                         </div>
+                     </li>
+                 </ul>
+             </div>
+             <div class="sidebar__social">
+                 <ul>
+                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                     <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                     <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                 </ul>
+             </div>
+         </div>
+     </div>
+ </div>
+ <!-- sidebar area end -->
+ <header class="header-transparent header-transparent-3">
+     <div class="header-sticky  menu-area">
+         <div class="container">
+             <div class="menu-bg">
+                 <div class="row align-items-center">
+                     <div class="col-xl-2 col-lg-2 col-md-3 col-6">
+                         <div class="logo">
+                             <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                         </div>
+                     </div>
+                     <div class="col-xl-10 col-lg-10 col-md-9 col-6">
+                         <div class="side-menu-icon d-lg-none text-end">
+                             <a href="javascript:void(0)" class="info-toggle-btn f-right sidebar-toggle-btn"><i
+                                     class="fas fa-bars"></i></a>
+                         </div>
 
-  <!-- Header section End -->
+                         <div class="main-menu f-right">
+                             <nav id="mobile-menu">
+                                 <ul>
+                                     <li>
+                                         <a href="programme.html">Programme </a>
+                                         <ul class="sub-menu">
+                                             <li><a href="intership.html">Virtual Internship </a></li>
+                                             <li><a href="wbl.html">WBL & HE </a> </li>
+                                             <li><a href="phd.html"> PhD Scholarship</a></li>
+                                             <li><a href="work_permit.html">Work-Permit</a></li>
+                                         </ul>
+                                     </li>
+                                     <li>
+                                         <a href="blog.html">Blog</a>
+                                     </li>
+                                     <li>
+                                         <a href="case_study.html">Case Study</a>
+                                     </li>
+                                     <li><a href="resources.html">Resources</a> </li>
+
+                                     <li><a href="faq.html">FAQ</a> </li>
+                                     <li><a href="contact.html" class="active">Contact Us</a> </li>
+                                     <li>
+                                         <div class="login-box-two">
+                                             <button type="button" class="theme-btn rounded-0 border-0"
+                                                 data-bs-toggle="modal" data-bs-target="#login"> Login
+                                             </button>
+                                         </div>
+                                     </li>
+                                 </ul>
+                             </nav>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </header>
+ <!-- Header section End -->
   <main>
       <!-- Hero Section Start-->
        <section class="hero-area owl-carousel owl-theme">
