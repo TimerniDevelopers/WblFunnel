@@ -115,6 +115,7 @@ $(document).ready(function($) {
 			margin: 25,
 			autoHeight: false,
 			stagePadding: 50,
+		
 			responsive:{
 			  0:{
 				items: 1,

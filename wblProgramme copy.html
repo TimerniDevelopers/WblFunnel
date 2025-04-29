@@ -12,6 +12,8 @@
     <!--Bootstrap CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <!-- Carousel Slider CSS -->
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <!-- Carousel Slider CSS -->
     <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
     <!-- Carousel Slider CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
@@ -20,138 +22,175 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+ 
   <!-- header section start -->
-  <header id="myHeader">
-      <div class="container">
-          <nav class="navbar navbar-expand-lg">
-              <div class="container-fluid p-0">
-                  <!-- Header Logo -->
-                  <a class="navbar-brand" href="index.html">
-                      <img src="assets/img/logo.png" alt="WBL Funnel" loading="lazy" class="light-logo img-fluid">
-                  </a>
-                  <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                      aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav ms-auto">
-                          <!-- Nav Links -->
-                          <li class="nav-item active">
-                              <a class="nav-link" aria-current="page" href="#work-permit">Work-Permit </a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="#phd">PHD</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="#phd">WBL</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="javascript:void(0);" class="com-btn btn-red1 mt-4 position-relative" data-bs-toggle="modal" data-bs-target="#exampleModalCalendar">
-                                Secure Your Spot Now
-                            </a>
-                          </li>
-                      </ul>
-                  </div>
-              </div>
-          </nav>
-      </div>
-  </header>
-
+ <!-- sidebar area start -->
+ <div class="sidebar__area ">
+    <div class="sidebar__wrapper">
+       <div class="sidebar__close">
+          <button class="sidebar__close-btn" id="sidebar__close-btn">
+          <i class="fas fa-times"></i>
+          </button>
+       </div>
+       <div class="sidebar__content">
+          <div class="sidebar__logo mb-40">
+             <a href="index.html">
+             <img src="assets/img/logo.png" alt="logo" width="100">
+             </a>
+          </div>
+          <div class="sidebar__search mb-25">
+             <form action="#">
+                <input type="text" placeholder="What are you searching for?">
+                <button type="submit"><i class="fas fa-search"></i></button>
+             </form>
+          </div>
+          <div class="mobile-menu fix"></div>
+          <div class="sidebar__contact mt-30 mb-20">
+             <h4>Contact Info</h4>
+             <ul>
+                <li class="d-flex align-items-center">
+                   <div class="sidebar__contact-icon mr-15">
+                      <i class="fas fa-map-marker-alt"></i>
+                   </div>
+                   <div class="sidebar__contact-text">
+                      <a target="_blank" href="https://maps.app.goo.gl/8cPU11UzjbcEwtpq6">Halpern House, 1-2 Hampshire Terrace, Portsmouth, PO1 2Q, UK</a>
+                   </div>
+                </li>
+                <li class="d-flex align-items-center">
+                   <div class="sidebar__contact-icon mr-15">
+                      <i class="far fa-phone"></i>
+                   </div>
+                   <div class="sidebar__contact-text">
+                      <a href="tel:+44 (0) 238 052 8262">+44 (0) 238 052 8262</a>
+                   </div>
+                </li>
+                <li class="d-flex align-items-center">
+                   <div class="sidebar__contact-icon mr-15">
+                      <i class="fas fa-envelope"></i>
+                   </div>
+                   <div class="sidebar__contact-text">
+                      <a href="mailto:hello@bytestore.xyz"><span class="__cf_email__">hello@bytestore.xyz</span></a>
+                   </div>
+                </li>
+             </ul>
+          </div>
+          <div class="sidebar__social">
+             <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+             </ul>
+          </div>
+       </div>
+    </div>
+ </div>
+ <!-- sidebar area end -->
+ <header class="header-transparent header-transparent-3">
+    <div class="header-sticky  menu-area">
+       <div class="container">
+          <div class="menu-bg">
+             <div class="row align-items-center">
+                <div class="col-xl-2 col-lg-2 col-md-3 col-6">
+                   <div class="logo">
+                      <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                   </div>
+                </div>
+                <div class="col-xl-10 col-lg-10 col-md-9 col-6">
+                   <div class="side-menu-icon d-lg-none text-end">
+                      <a href="javascript:void(0)" class="info-toggle-btn f-right sidebar-toggle-btn"><i class="fas fa-bars"></i></a>
+                   </div>
+             
+                   <div class="main-menu f-right">
+                      <nav id="mobile-menu">
+                         <ul>
+                            <li>
+                               <a href="programme.html">Programme </a>
+                               <ul class="sub-menu">
+                                  <li><a href="intership.html">Virtual Internship </a></li>
+                                  <li><a href="wbl.html">WBL & HE </a> </li>
+                                  <li><a href="phd.html"> PhD Scholarship</a></li>
+                                  <li><a href="work_permit.html">Work-Permit</a></li>
+                               </ul>
+                            </li>
+                            <li>
+                                <a href="blog.html">Blog</a>
+                             </li>
+                             <li>
+                                <a href="case_study.html">Case Study</a>
+                             </li>
+                            <li><a href="resources.html">Resources</a> </li>
+                            
+                            <li><a href="faq.html">FAQ</a> </li>
+                            <li><a href="contact.html" class="active">Contact Us</a> </li>
+                            <li>
+                               <div class="login-box-two">
+                                  <button type="button" class="theme-btn rounded-0 border-0" data-bs-toggle="modal"
+                                      data-bs-target="#login"> Login
+                                  </button>
+                              </div>
+                            </li>
+                         </ul>
+                      </nav>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </header>
   <!-- Header section End -->
   <main>
       <!-- Hero Section Start-->
-       <section class="hero-area owl-carousel owl-theme">
-            <div class="hero-item">
-                <div class="hero-slider text-center" data-background="https://timerni.com/assets/uploads/home_page/focus_point-1650374923.png">
-                    <div class="container">
-                        <div class="inner-width">
-                         <h1 class="text-white fw-700 ">Your Scholarship Journey Starts Here!</h1>
-                         <p class="text-white fw-500">Learn how to craft winning proposals and achieve academic excellence</p>
-                         <a href="javascript:void(0);" class="com-btn btn-red1 mt-4 position-relative" data-bs-toggle="modal" data-bs-target="#exampleModalCalendar">
-                             <span class="title">GET A FREE CONSULTATION</span>
-                             <span class="sub-title">Your Information Will not be Shared</span>
-                         </a>
-                     </div>
-                    </div>
-                </div>
+       <section class="wbl-banner">
+          <div class="video-area">
+             <a href="https://www.youtube.com/watch?v=WTUCPceDk0w" class="video-icon">
+                 <div>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none">
+                         <path fill-rule="evenodd" clip-rule="evenodd"
+                             d="M19.2661 10.4837C20.258 11.2512 20.258 12.7487 19.2661 13.5162C16.2685 15.8356 12.9213 17.6637 9.34979 18.9322L8.69731 19.1639C7.44904 19.6073 6.13053 18.7627 5.96154 17.4742C5.48938 13.8739 5.48938 10.126 5.96154 6.52574C6.13053 5.23719 7.44904 4.39263 8.69732 4.83597L9.34979 5.06771C12.9213 6.33619 16.2685 8.16434 19.2661 10.4837ZM18.3481 12.3298C18.5639 12.1628 18.5639 11.837 18.3481 11.6701C15.4763 9.44796 12.2695 7.69648 8.84777 6.4812L8.19529 6.24947C7.87034 6.13406 7.49691 6.35401 7.44881 6.72079C6.99363 10.1915 6.99363 13.8084 7.4488 17.2791C7.49691 17.6459 7.87034 17.8658 8.19529 17.7504L8.84777 17.5187C12.2695 16.3034 15.4763 14.5519 18.3481 12.3298Z"
+                             fill="white"></path>
+                     </svg>
+                 </div>
+             </a>
+          </div>
+          <div class="wbl-abs">
+              <h3>WBL Programme</h3>
+          </div>
+          <div class="container">
+            <div class="wbl-abs">
+                <h3>WBL Programme</h3>
             </div>
-            <div class="hero-item">
-                <div class="hero-slider text-center" data-background="https://timerni.com/assets/uploads/home_page/focus_point-1650374779.png">
-                    <div class="container">
-                        <div class="inner-width">
-                         <h1 class="text-white fw-700 ">Global Experts Bridging Academia and Industry</h1>
-                         <p class="text-white fw-500">World-renowned academics and professionals helping you succeed</p>
-                         <a href="javascript:void(0);" class="com-btn btn-red1 mt-4 position-relative" data-bs-toggle="modal" data-bs-target="#exampleModalCalendar">
-                             <span class="title">GET A FREE CONSULTATION</span>
-                             <span class="sub-title">Your Information Will not be Shared</span>
-                         </a>
-                     </div>
-                    </div>
-                </div>
-            </div>
-            <div class="hero-item">
-                <div class="hero-slider text-center" data-background="https://timerni.com/assets/uploads/home_page/focus_point-1650374923.png">
-                    <div class="container">
-                        <div class="inner-width">
-                         <h1 class="text-white fw-700 ">Turn Opportunities into Career Success!</h1>
-                         <p class="text-white fw-500">Focused training to prepare you for real-world job placement</p>
-                         <a href="javascript:void(0);" class="com-btn btn-red1 mt-4 position-relative" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                             <span class="title">GET A FREE CONSULTATION</span>
-                             <span class="sub-title">Your Information Will not be Shared</span>
-                         </a>
-                     </div>
-                    </div>
-                </div>
-            </div>
-            <div class="hero-item">
-                <div class="hero-slider text-center" data-background="https://timerni.com/assets/uploads/home_page/focus_point-1650374923.png">
-                    <div class="container">
-                        <div class="inner-width">
-                         <h1 class="text-white fw-700 ">Unlock Opportunities, Redefine Your Future!</h1>
-                         <p class="text-white fw-500">Join our expert-led programmes for scholarships, work permits, and career success</p>
-                         <a href="javascript:void(0);" class="com-btn btn-red1 mt-4 position-relative" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                             <span class="title">GET A FREE CONSULTATION</span>
-                             <span class="sub-title">Your Information Will not be Shared</span>
-                         </a>
-                     </div>
-                    </div>
-                </div>
-            </div>
+          </div>
        </section>
 
       <!-- Hero Section End-->
 
       <!-- New Ideas Section Start -->
-      <section class="about-area commonPadding">
+      <section class="virtual-intership commonPadding">
           <div class="container">
-              <div class="row text-center align-items-center">
+              <div class="row align-items-center">
                   <div class="col-md-6">
-                    <div class="about-content">
-                        <div class="section-content">
-
-                            <h5 class="f-w-500  position-relative">About the Programme</h5>
-                            <h2 class="common-title mb-3">Building a skilled ecosystem through education, employment, and innovation</h2>
+                    <div class="virtual-content">
+                          <div class="section-content">
+                              <h2 class="common-title mb-3">Virtual Internship </h2>
+                          </div>
+                          <p>Gain real-world experience with our virtual internship—flexible, remote, and designed to
+                              build your skills</p>
+                        <div class="details-btn mt-3">
+                            <a href="#" class="theme-btn btn-red1 ">View More
+                                <span class="fa fa-long-arrow-alt-right"></span>
+                            </a>
                         </div>
-                        <p>The Tri Work-Based Learning Programme provides a unique, bespoke solution for study at university, PhD scholarships and work permits. It combines high school quality with real world practice and international travel to connect education with real results. The programme offers tailor-made pathways, practical projects and international exposure that equip students with transferrable skills such as critical thinking, problem-solving and leadership. Under the expert supervision of expert mentors, participants see measurable results – scholarships, work permits overseas, dream jobs. This impact-oriented programme puts you in the front of a sea of others, and builds you for academic, business and professional success.</p>
-                      
                     </div>
                   </div>
                   <div class="col-md-6">
-                    <div class="video-area">
-                        <img src="assets/img/roofing_1.png" alt="">
-                        <a href="https://www.youtube.com/watch?v=WTUCPceDk0w" class="video-icon">
-                           <img src="assets/img/wbl_paly.png" alt="wbl">
-                        </a>
+                    <div class="virtual-img">
+                        <img src="assets/img/wbl1.png" alt="virtual">
+                        
                     </div>
                   </div>
               </div>
-              <div class="text-center my-4">
-                <a href="javascript:void(0);" class="com-btn btn-red1 mt-4 position-relative" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <span class="title">GET A FREE CONSULTATION</span>
-                    <span class="sub-title">Your Information Will not be Shared</span>
-                </a>
-            </div>
           </div>
       </section>
       <!-- New Ideas Section End -->
@@ -1009,7 +1048,7 @@
                   </div>
             </div>
             <div class="text-center my-4">
-                <a  href="javascript:void(0);" class="com-btn btn-red1 mt-4 position-relative" data-bs-toggle="modal" data-bs-target="#exampleModalCalendar">
+                <a  href="javascript:void(0);" class="com-btn btn-red11 mt-4 position-relative" data-bs-toggle="modal" data-bs-target="#exampleModalCalendar">
                     <span class="title">Secure Your Spot Now</span>
                     <span class="sub-title">  Your Information Will not be Shared</span>
                   
@@ -1467,7 +1506,7 @@
         <div class="footer-bottom">
            <div class="container">
               <div class="copyright-text">
-                <p class="mb-0 text-black address-details"> ©2025 All Rights Reserved, WBL. Design and Development by
+                <p class="mb-0 text-black address-details"> ©2024 All Rights Reserved, WBL. Design and Development by
                     <a target="__blank" href="https://bytestore.xyz/" class="text-decoration">
                     <span class="me-1">Timerni</span>
                     <img src="assets/img/brand-logo.png">
@@ -1560,6 +1599,114 @@
     </div>
   </div>
   <!-- Modal box section End -->
+      <!-- Modal -->
+      <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+           <div class="modal-content">
+                 <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body">
+                    <div class="login-register-border" id="loginbox">
+                       <div class="login-register-content">
+                             <div class="login-register-title mb-20">
+                                <h2>Login</h2>
+                                <p>Welcome back! Please enter your username and password to login. </p>
+                             </div>
+                             <div class="login-register-style login-register-pr">
+                                <form action="#" method="post">
+                                   <div class="login-register-input">
+                                         <input type="text" name="user-name" placeholder="Username or email address">
+                                   </div>
+                                   <div class="login-register-input">
+                                         <input type="password" name="user-password" placeholder="Password">
+                                         
+                                   </div>
+                                   <div class="remember-me-btn">
+                                         <div class="d-flex justify-content-between">
+                                            <div>
+
+                                               <input id="checkbox" type="checkbox">
+                                               <label for="checkbox">Remember me</label>
+                                            </div>
+                                            <div class="forgot">
+                                               <a href="#">Forgot your password</a>
+                                            </div>
+                                         </div>
+                                         
+                                   </div>
+                                   <div class="btn-style-3 mt-15">
+                                         <button class="btn" type="button">Login</button>
+                                   </div>
+                                   <div class="signup-link text-center mt-20">Don’t have any account? <a
+                                            onClick="$('#loginbox').hide(); $('#signupbox').show()">Register now</a></div>
+                                </form>
+                             </div>
+                       </div>
+                    </div>
+                    <div class="login-register-border" id="signupbox" style="display:none;">
+                       <div class="login-register-content">
+                             <div class="login-register-title mb-20">
+                                <h2>Register</h2>
+                             
+                                <div class="social-icon mt-3 mb-3">
+                                   <a href="javascript:void(0)">
+                                      <i class="fab fa-google"></i>
+                                   </a>
+                                   <a href="javascript:void(0)">
+                                      <i class="fab fa-facebook"></i>
+                                   </a>
+                                   <a href="javascript:void(0)">
+                                      <i class="fab fa-instagram"></i>
+                                   </a>
+                                   <a href="javascript:void(0)">
+                                      <i class="fab fa-linkedin-in"></i>
+                                   </a>
+                             </div>
+                                
+                                <p>
+                                   <span>or use your email for registration</span>
+                                </p>
+                             </div>
+                             <div class="login-register-style login-register-pr">
+                                <form action="#" method="post">
+                                   <div class="login-register-input">
+                                         <input type="text" name="user-name" placeholder="Username ">
+                                   </div>
+                                   <div class="login-register-input">
+                                         <input type="text" name="user-email" placeholder="Email address">
+                                   </div>
+                                   <div class="login-register-input">
+                                         <input type="password" name="user-password" placeholder="Password">
+                                   </div>
+
+                                   <div class="login-register-input">
+                                         <input type="password" name="conf-password" placeholder="confirm-password">
+                                   </div>
+                                   <div class="mt-10 text-end">
+                                         <input id="Accept" type="checkbox">
+                                         <label for="Accept" class="color-1">Accept terms and conditions</label>
+                                      
+                                   </div>
+                                   <div class="btn-style-3 mt-15">
+                                         <button class="btn" type="button">Submit</button>
+                                   </div>
+                                   <div class="signup-link text-center mt-20">Alrady have a account? <a id="signinlink"
+                                            href="#" onclick="$('#signupbox').hide(); $('#loginbox').show()">Login now</a>
+                                   </div>
+                                </form>
+                             </div>
+                       </div>
+                    </div>
+                    
+                 </div>
+                 <!-- <div class="modal-footer">
+              <button type="button" class="modal-btn-two" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="  modal-btn-two">Save changes</button>
+           </div> -->
+           </div>
+        </div>
+     </div>
    <!-- Jquery JS Link -->
 <script src="assets/js/jquery.min.js"></script>
 <!-- Bootstrap JS Link -->
@@ -1567,6 +1714,8 @@
 <!-- carousel slider JS -->
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/one-page-nav-min.js"></script>
+<script src="assets/js/jquery.meanmenu.min.js"></script>
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/js/waypoints.min.js"></script>
 <script src="assets/js/isotope.pkgd.min.js"></script>
@@ -1574,6 +1723,49 @@
 <script src="assets/js/counterup.min.js"></script>
 <!-- Custom JS Link -->
 <script src="assets/js/custom.js"></script> 
+<script>
+        // meanmenu
+        $('#mobile-menu').meanmenu({
+        meanMenuContainer: '.mobile-menu',
+        meanScreenWidth: "991",
+        meanExpand: ['<i class="fas fa-plus"></i>'],
+    });
+    ////////////////////////////////////////////////////
+    //  Sidebar Js
+    $(".sidebar-toggle-btn").on("click", function() {
+        $(".sidebar__area").addClass("sidebar-opened");
+        $(".body-overlay").addClass("opened");
+    });
+    $(".sidebar__close-btn").on("click", function() {
+        $(".sidebar__area").removeClass("sidebar-opened");
+        $(".body-overlay").removeClass("opened");
+    });
+
+    $(".body-overlay").on("click", function() {
+        $(".sidebar__area").removeClass("sidebar-opened");
+        $(".body-overlay").removeClass("opened");
+    });
+
+
+    // One Page Nav
+    var top_offset = $('.header-area').height() - 10;
+    $('.main-menu nav ul').onePageNav({
+        currentClass: 'active',
+        scrollOffset: top_offset,
+    });
+
+
+    $(window).on('scroll', function() {
+        var scroll = $(window).scrollTop();
+        if (scroll < 245) {
+            $(".menu-area").removeClass("sticky");
+        } else {
+            $(".menu-area").addClass("sticky");
+        }
+    });
+
+
+</script>
 
 </body>
 </html>
