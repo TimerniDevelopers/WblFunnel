@@ -47,8 +47,7 @@ textarea:focus {
 body {
     background: #fff;
     color: #3c3c3c;
-    font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
 }
@@ -3426,11 +3425,20 @@ div#login {
     background-size: cover;
     height: 70vh;
 }
-.wbl-abs{
+
+.wbl-banner .wbl-abs {
     position: absolute;
+    background-color: #191D88;
+    color: #fff;
+    width: 70%;
+    bottom: 0;
+    margin-left: 15%;
+    text-align: center;
+    padding: 9px;
 }
-
-
+.wbl-banner .wbl-abs h3{
+    color: #fff;
+}
 /* service  */
 .services__details-area {
     padding-bottom: 50px;
