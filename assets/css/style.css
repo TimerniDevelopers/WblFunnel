@@ -1574,6 +1574,13 @@ Main Footer
     }
     .newsletter-widget .text {
     margin-bottom: 10px;
+    color: #fff;
+    }
+    .newsletter {
+        background: #009ee2;
+        padding: 50px 0px;
+        color: #fff;
+        margin-top: 50px;
     }
     
     /* Subscribe Form */
@@ -1597,6 +1604,7 @@ Main Footer
     text-align: center;
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
+    
     }
     .subscribe-form .form-group input[type=text]::-webkit-input-placeholder, .subscribe-form .form-group input[type=email]::-webkit-input-placeholder {
     color: #717070;
@@ -3976,6 +3984,7 @@ Page Title
     background: transparent;
     transition: all .25s ease;
     width: 80%;
+    color: #fff;
 }
 .submit-btn{
     padding: 10px;
@@ -4274,6 +4283,8 @@ Page Title
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .sidebar__post-image {
     position: relative;
