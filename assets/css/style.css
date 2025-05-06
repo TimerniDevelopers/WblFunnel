@@ -2732,6 +2732,7 @@ Testimonial Section Two
     .title {
         font-size: 17px;
     }
+   
     .single-wrapper-b {
         width: 95%;
         margin-left: 2.5%;
@@ -4022,6 +4023,7 @@ Page Title
 }
 .case-item h5 {
     font-size: 18px;
+    height: 45px;
 }
 .case-item p {
     font-size: 15px;
@@ -4793,4 +4795,24 @@ Page Title
     color: #1c1c1c;
     font-weight: 500;
     line-height: 24px;
+}
+
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .page-title .title {
+        font-size: 48px;
+    }
+    .sidebar__post-content .title {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .services__details-content>.title {
+        font-size: 20px;
+    }
+    .logo img {
+        max-width: 60px;
+    }
+    .wbl-banner .wbl-abs h3 {
+        font-size: 20px;
+    }
 }
