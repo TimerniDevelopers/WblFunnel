@@ -640,49 +640,6 @@
 <script src="assets/js/counterup.min.js"></script>
 <!-- Custom JS Link -->
 <script src="assets/js/custom.js"></script> 
-<script>
-        // meanmenu
-        $('#mobile-menu').meanmenu({
-        meanMenuContainer: '.mobile-menu',
-        meanScreenWidth: "991",
-        meanExpand: ['<i class="fas fa-plus"></i>'],
-    });
-    ////////////////////////////////////////////////////
-    //  Sidebar Js
-    $(".sidebar-toggle-btn").on("click", function() {
-        $(".sidebar__area").addClass("sidebar-opened");
-        $(".body-overlay").addClass("opened");
-    });
-    $(".sidebar__close-btn").on("click", function() {
-        $(".sidebar__area").removeClass("sidebar-opened");
-        $(".body-overlay").removeClass("opened");
-    });
-
-    $(".body-overlay").on("click", function() {
-        $(".sidebar__area").removeClass("sidebar-opened");
-        $(".body-overlay").removeClass("opened");
-    });
-
-
-    // One Page Nav
-    var top_offset = $('.header-area').height() - 10;
-    $('.main-menu nav ul').onePageNav({
-        currentClass: 'active',
-        scrollOffset: top_offset,
-    });
-
-
-    $(window).on('scroll', function() {
-        var scroll = $(window).scrollTop();
-        if (scroll < 245) {
-            $(".menu-area").removeClass("sticky");
-        } else {
-            $(".menu-area").addClass("sticky");
-        }
-    });
-
-
-</script>
-
+     
 </body>
 </html>
