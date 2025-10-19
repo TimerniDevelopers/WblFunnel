@@ -2091,6 +2091,9 @@ Testimonial Section Two
 ====================================================================
 
 ***/
+.m-auto .inner-width{
+    text-align: center;
+}
 .testimonial-section-two {
     position: relative;
     padding: 100px 0px;
