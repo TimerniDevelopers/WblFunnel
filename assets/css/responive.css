@@ -455,6 +455,9 @@
         width: 100%;
         margin-top: 20px;
     }
+    .main-footer .form-control {
+        padding: 25px 15PX;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 991px) {

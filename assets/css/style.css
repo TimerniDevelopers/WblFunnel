@@ -2096,11 +2096,14 @@ Testimonial Section Two
     padding: 100px 0px;
     margin-top: 60px;
   }
+ 
   .testimonial-section-two .title-column {
     position: relative;
     margin-bottom: 50px;
   }
-
+  .testimonial-section-two  .inner-width{
+    text-align: center;
+  }
   .testimonial-section-two .owl-nav {
     position: absolute;
     left: -300px;
