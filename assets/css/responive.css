@@ -36,12 +36,23 @@
     .calendar-modal  .modal-dialog {
         max-width: 750px;
     }
+    .sidebar__widget {
+        padding: 18px;
+    }
+    .sidebar__post-content {
+        overflow: hidden;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
  .header-btn {
         margin-top: 0;
         margin-right: 40px;
     }
+.sidebar__post-item{
+    flex-direction: column;
+}
+
+    
 }
 @media (max-width: 991px) {
     .navbar .navbar-toggler .navbar-toggler-icon {
@@ -287,7 +298,12 @@
     .vodcaster-time {
         font-size: 16px;
     }
-    
+    .news-top {
+        padding: 30px 0px;
+    }
+    .case-details__block-title {
+        font-size: 19px;
+    }
 }
  @media only screen and (min-width: 576px) and (max-width: 991px) {
   .header-btn {
@@ -399,6 +415,31 @@
     }
     .program-area {
         padding: 35px 0px 35px;
+    }
+    .theme-btn {
+        padding: 15px 25px;
+    }
+    .services__details-inner-content{
+        margin-top: 20px;
+    }
+    .services__details-list-box .content .title {
+        font-size: 18px;
+    }
+    .services__details-inner-content .title {
+        font-size: 20px;
+    }
+    .about__list-box .list-wrap li{
+        font-size: 17px;
+    }
+     .sidebar__widget {
+        padding: 18px;
+    }
+  
+    .sidebar__widget .sidebar__post-item:last-child {
+        margin-bottom: 0px;
+    }
+    .service-right-w {
+        margin-top: 30px;
     }
 }
 
