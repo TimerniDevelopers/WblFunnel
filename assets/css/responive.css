@@ -441,6 +441,20 @@
     .service-right-w {
         margin-top: 30px;
     }
+    .case-item h5 {
+        font-size: 17px;
+        height: 32px;
+    }
+    .case-item p {
+        margin-bottom: 0 !important;
+    }
+   .case-details-area .search{
+        margin-top: 20px;
+    }
+    .map iframe {
+        width: 100%;
+        margin-top: 20px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 991px) {

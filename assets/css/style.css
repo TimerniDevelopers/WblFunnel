@@ -1658,12 +1658,10 @@ Main Footer
   }
   .program-area {
     position: relative;
-    padding: 80px 0px 100px;
+    padding: 40px 0px 80px;
     background: #dddddd14;
 }
- .success-area{
-    padding-bottom: 0px;
-}
+
 .wbl-compare-c {
     display: inline-block;
     /* border: 1px solid #dee2e6; */
