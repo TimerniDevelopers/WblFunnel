@@ -172,7 +172,7 @@
         font-size: 19px;
     }
     .common-title {
-        font-size: 23px;
+        font-size: 20px
     }
     .common-title br{
        display: none;
@@ -235,6 +235,59 @@
     .accordion-section-content p {
         font-size: 16px;
     }
+     .wbl-compare{
+        padding-left: 0px;
+    }
+    
+    .wbl-compare-c .tier-num .tier-t {
+        margin-bottom: 0px;
+    }
+    .testimonial-section-two .title-column
+    {
+        position: relative;
+        margin-bottom:10px;
+    }
+    .testimonial-section-two {
+        padding: 50px 0px;
+        margin-top: 0px;
+    }
+    .com-btn .sub-title {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .sticky.menu-area .logo img {
+        max-width: 70px;
+    }
+     .counter-area li{
+        margin-bottom: 10px;
+     }
+    .counter-area li p{
+        margin-bottom: 0px;
+    }
+    .counter-area li h3{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .c-title {
+        font-size: 18px;
+    }
+    .h4, h4 {
+        font-size: calc(.9rem + .3vw);
+    }
+    .h3, h3 {
+     font-size: calc(1rem + .6vw);
+    }
+    .vodcaster-name {
+        font-size: 20px;
+    }
+        .vodcaster-desi {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .vodcaster-time {
+        font-size: 16px;
+    }
+    
 }
  @media only screen and (min-width: 576px) and (max-width: 991px) {
   .header-btn {
@@ -279,12 +332,62 @@
     }
       .accordion .accordion-section-title {
         font-size: 16px;
+        font-weight: 500;
+        padding: 15px;
+        padding-right: 35px;
     }
 
     .accordion-section-content p {
         font-size: 15px;
     }
+    .hero-slider h1 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .hero-slider p {
+        font-size: 17px;
+        line-height: 1.2;
+    }
+    .com-btn .title {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .com-btn .title {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .hero-slider {
+        padding: 35px 0px 50px;
+        min-height: calc(75vh - 100px);
+    }
+    .hero-area.owl-theme .owl-nav{
+        position: relative;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        top: -50px;
+    }
+    .program-area .nav .nav-item button {
+        font-size: 15px;
+    }
+    .program-area .nav .nav-item button {
+        font-size: 15px;
+    }
+    .testimonial-section-two .common-title {
+        font-size:20px;
+    }
+    .carousel-section {
+        padding-top: 30px;
+    }
+   .main-footer .nav-logo img {
+        max-width: 100px;
+    }
+    .what-we {
+        padding: 45px 0px 40px;
+    }
+
 }
+
 @media (min-width: 576px) and (max-width: 991px) {
 
 }
