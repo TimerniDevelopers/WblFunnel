@@ -385,6 +385,15 @@
     .what-we {
         padding: 45px 0px 40px;
     }
+    .sidebar__contact h4 {
+        font-size: 20px;
+        margin-bottom: 11px;
+        margin-top: 15px;
+        display: inline-block;
+    }
+      .sidebar__contact ul{
+        padding-left: 0px;
+      }
 
 }
 
