@@ -2939,14 +2939,14 @@ div#login {
     position: absolute;
     background-color: #191D88;
     color: #fff;
-    width: 90%;
+    width: 100%;
     bottom: -30px;
-    margin-left: 5%;
     text-align: center;
     padding: 9px;
 }
 .wbl-banner .wbl-abs h3{
     color: #fff;
+    margin-bottom: 0;
 }
 /* service  */
 .services__details-area {

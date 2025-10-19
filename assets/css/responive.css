@@ -393,8 +393,13 @@
     }
       .sidebar__contact ul{
         padding-left: 0px;
-      }
-
+    }
+    .sm-col-revs {
+        flex-direction: column-reverse;
+    }
+    .program-area {
+        padding: 35px 0px 35px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 991px) {
@@ -444,7 +449,7 @@
     }
   
     .wbl-compare-c .tier-num {
-        width: 280px;
+        width: 290px;
     }
 
     .wbl-compare-c .tier-num p {
