@@ -171,7 +171,7 @@
         margin-right: 0px;
     }
      .hero-slider h1 {
-        font-size: 44px;
+        font-size: 40px;
     }  
     .com-btn .title {
         font-size: 18px;
@@ -207,7 +207,7 @@
         font-size: 20px;
     }
     .program-area {
-        padding: 70px 0px 35px;
+        padding: 40px 0px 35px;
     }
     .counter-area ul{
         flex-wrap: wrap;
@@ -304,6 +304,12 @@
     .case-details__block-title {
         font-size: 19px;
     }
+    .hero-area.owl-theme .owl-nav {
+        position: absolute;
+        top: 58%;
+    }
+
+    
 }
  @media only screen and (min-width: 576px) and (max-width: 991px) {
   .header-btn {
@@ -458,6 +464,42 @@
     .main-footer .form-control {
         padding: 25px 15PX;
     }
+    .program-content-two ul li {
+        font-size: 16px;
+    }
+        .wbl-banner .wbl-abs h3 {
+        font-size: 19px;
+    }
+    .com-btn2{
+         padding: 15px 25PX;
+    }
+    
+   ul.wbl-compare {
+        text-align: center;
+        position: absolute;
+        top: -10%;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+      .wbl-compare-c .tier-num {
+        width: 290px;
+    }
+
+    .wbl-compare-c .tier-num p {
+        font-size: 13px;
+    }
+     .wbl-compare li.wbl-compare-c {
+        top: 0px !important;
+        left: 0px !important;
+        margin-bottom: 15px;
+    }
+    .wbl-compare .wbl-compare-c {
+        position: relative;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 991px) {
@@ -469,30 +511,13 @@
         font-size: 14px;
         line-height: 18px;
     }
-    .wbl-compare li.wbl-compare-c {
-        top: 0px !important;
-        left: 0px !important;
-        margin-bottom: 15px;
-    }
-    .wbl-compare .wbl-compare-c {
-        position: relative;
-    }
-    ul.wbl-compare {
-        text-align: center;
-        position: absolute;
-        top: -10%;
-        left: 50%;
-        transform: translateX(-50%);
-        -webkit-transform: translateX(-50%);
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -o-transform: translateX(-50%);
-    }
+   
+    
     .program-content .mb-25 {
         margin-bottom: 20px;
     }
     .program-content {
-        margin-top: 200px;
+        margin-top: 160px;
     }
     .title {
         font-size: 17px;
@@ -506,13 +531,7 @@
         max-width: 240px;
     }
   
-    .wbl-compare-c .tier-num {
-        width: 290px;
-    }
-
-    .wbl-compare-c .tier-num p {
-        font-size: 13px;
-    }
+  
     body{
         font-size: 15px;
     }
@@ -540,5 +559,12 @@
       .contact-info-block .inner {
       padding-left: 0;
       text-align: center;
+    }
+    .common-title {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .com-btn .sub-title {
+        font-weight: 400;
     }
 }
