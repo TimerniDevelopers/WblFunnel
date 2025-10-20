@@ -553,4 +553,7 @@
     .com-btn .sub-title {
         font-weight: 400;
     }
+    .mean-container .mean-nav ul li a {
+        font-weight: 500;
+    }
 }
