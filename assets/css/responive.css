@@ -68,7 +68,6 @@
 	.navbar-toggler-icon {
 		background-image: none;
 	}
-
 	.navbar .navbar-toggler {
 		position: relative;
 		padding-left: 0;
@@ -87,7 +86,6 @@
 		left: 0px;
 		content: "";
 	}
-
 	.navbar .navbar-toggler:before {
 		background-color: #3c3c3c;
 		height: 3px;
@@ -97,7 +95,6 @@
 		left: 0px;
 		content: "";
 	}
-
 	.navbar .navbar-toggler.show .navbar-toggler-icon {
 		opacity: 0;
 	}
@@ -105,24 +102,19 @@
 	.navbar .navbar-toggler.show::before {
 		transform: rotate(-45deg) translate(7.5px, -7.5px);
 	}
-
 	.navbar .navbar-toggler.show::after {
 		transform: rotate(45deg) translate(7.5px, 7.5px);
 	}
-
 	.navbar .navbar-toggler:focus {
 		outline: none;
 		box-shadow: none;
 	}
-
 	.navbar-collapse {
 		background-color: #ffffff;
 	}
-
 	header .navbar-nav .nav-item:not(:last-child) {
 		margin-right: 0;
 	}
-
 	.navbar-nav .nav-link {
 		display: block;
 		padding: 15px 0 15px 0px !important;
@@ -130,35 +122,28 @@
 		border-bottom: 1px solid #902a8b;;
 		font-weight: 500;
 	}
-
 	.navbar-expand-lg .navbar-nav .nav-link span {
 		color: #902a8b;;
 		font-weight: 500;
 	}
-
 	header .navbar-nav .nav-item:last-child .nav-link {
 		border-bottom: 0;
 	}
-
 	header.sticky .navbar-collapse {
 		background-color: transparent;
 	}
-
 	header.sticky .navbar-nav .nav-link {
 		border-bottom-color: #c2c2c2
 	}
-
 	header.sticky .navbar .navbar-toggler .navbar-toggler-icon,
 	header.sticky .navbar .navbar-toggler::before,
 	header.sticky .navbar .navbar-toggler::after {
 		background-color: #3c3c3c;
 	}
-
 	.navbar-nav .nav-item:last-child a {
 		padding-left: 0;
 		border-left: 0;
 	}
-
 	.nav-link {
 		color: #902a8b;;
 	}
