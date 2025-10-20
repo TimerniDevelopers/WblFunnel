@@ -48,10 +48,12 @@
         margin-top: 0;
         margin-right: 40px;
     }
-.sidebar__post-item{
-    flex-direction: column;
-}
-
+    .sidebar__post-item{
+        flex-direction: column;
+    }
+    .main-menu ul li {
+        margin-left: 15px;
+    }
     
 }
 @media (max-width: 991px) {
