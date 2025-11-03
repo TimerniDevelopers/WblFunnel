@@ -326,7 +326,7 @@
         font-size: 15px;
     }
     .program-content{
-        margin-top: 150px;
+        margin-top: 70px;
     }
  
   }
@@ -648,7 +648,29 @@
         top: 6%;
     }
  }
-@media (min-width: 401px) and (max-width: 575px){
+ @media (min-width: 476px) and (max-width: 574px){
+ .wbl-compare .wbl-compare-c:nth-child(1) {
+        right:24%;
+        top: 0;
+    }
+       .wbl-compare .wbl-compare-c:nth-child(2) {
+        right: 14%;
+        top: 49.5%;
+    }
+    .wbl-compare .wbl-compare-c:nth-child(3) {
+        right: 22%;
+        bottom: -12%
+    }
+    .wbl-compare .wbl-compare-c:nth-child(4) {
+        left: 13%;
+        top: 57%;
+    }
+    .wbl-compare .wbl-compare-c:nth-child(5) {
+        left: 9%;
+        top: 6%;
+    }
+}
+@media (min-width: 401px) and (max-width: 475px){
  .wbl-compare .wbl-compare-c:nth-child(1) {
         right:20%;
         top: 0;
