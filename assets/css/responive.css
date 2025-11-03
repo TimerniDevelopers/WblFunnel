@@ -596,7 +596,7 @@
     
 }
 
- @media (min-width: 768px) and (max-width: 1099px){
+ @media (min-width: 768px) and (max-width: 1199px){
         .wbl-compare-c .tier-num p.t-color {
         display: none;
     }
