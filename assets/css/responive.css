@@ -13,6 +13,10 @@
         font-size: 29.218px;
         line-height: 36px;
     }
+    .wbl-compare .wbl-compare-c:nth-child(1) {
+        right: 8%;
+        top: 0px;
+    }
     }
 
 
@@ -324,6 +328,7 @@
     .program-content{
         margin-top: 150px;
     }
+ 
   }
 @media (max-width:767px) {
      .container {
@@ -497,26 +502,7 @@
         line-height: 35px;
         margin-bottom: 0px
     }
-    /* .wbl-compare .wbl-compare-c:nth-child(1) {
-        right:24%;
-        top: 0;
-    }
-       .wbl-compare .wbl-compare-c:nth-child(2) {
-        right: 15%;
-        top: 50%;
-    }
-    .wbl-compare .wbl-compare-c:nth-child(3) {
-        right: 22%;
-        bottom: -13%
-    }
-    .wbl-compare .wbl-compare-c:nth-child(4) {
-        left: 9%;
-        top: 66%;
-    }
-        .wbl-compare .wbl-compare-c:nth-child(5) {
-        left: 10%;
-        top: 7%
-    } */
+
      .program-content {
         margin-top:60px;
     }
@@ -533,6 +519,7 @@
     }
     
 }
+
 
 @media (min-width: 320px) and (max-width: 575px) {
        p,
@@ -608,45 +595,40 @@
     }
     
 }
-/* @media (min-width: 320px) and (max-width:675px) {
-.wbl-compare .wbl-compare-c:nth-child(1) {
-        right: 21%;
-        top: 0;
+
+ @media (min-width: 768px) and (max-width: 1099px){
+        .wbl-compare-c .tier-num p.t-color {
+        display: none;
     }
-    .wbl-compare .wbl-compare-c:nth-child(4) {
-        left: 6%;
-        top: 66%;
-    }
-} */
-/* @media (min-width: 376px) and (max-width:400px) {
-     .wbl-compare-c .tier-num {
-        padding: 12px;
+        .wbl-compare-c .tier-num {
+        width: 100%;
+        padding: 15px;
+        height: 65px;
     }
     .wbl-compare .wbl-compare-c:nth-child(1) {
-        right:14%;
+        right:28%;
         top: 0;
     }
        .wbl-compare .wbl-compare-c:nth-child(2) {
-        right: 4%;
-        top: 50%;
+        right: 25%;
+        top: 49.5%;
     }
     .wbl-compare .wbl-compare-c:nth-child(3) {
-        right: 18%;
-        bottom: -17%
+        right: 30%;
+        bottom: -13%
     }
     .wbl-compare .wbl-compare-c:nth-child(4) {
-        left: 2%;
-        top: 56%;
+        left: 22%;
+        top: 67%;
     }
     .wbl-compare .wbl-compare-c:nth-child(5) {
-        left: 7%;
-        top: 1%;
+        left: 25%;
+        top: 6%;
     }
-    
-} */
+ }
  @media (min-width: 576px) and (max-width: 767px){
     .wbl-compare .wbl-compare-c:nth-child(1) {
-        right:32%;
+        right:30%;
         top: 0;
     }
        .wbl-compare .wbl-compare-c:nth-child(2) {
