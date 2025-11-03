@@ -1688,18 +1688,20 @@ Main Footer
     -webkit-text-fill-color: #fff;
     -webkit-text-stroke-width: 1px;
     display: inline-block;
+    margin-bottom: 0px;
 }
 
 .wbl-compare-c .tier-num p {
     font-weight: 500;
     font-size: 14px;
+    margin-bottom: 0px;
 }
 
 .wbl-compare-c .tier-num span {
     height: 60px;
     width: 1.75px;
     display: inline-block;
-    margin: 0px 10px;
+    margin: 0px 7px;
 }
 
 .wbl-compare-c .tier-num {
