@@ -10,7 +10,8 @@
  
  @media (min-width: 1199px) {
     .wbl-compare-c .tier-num {
-        width: 300px;
+        width: 280px;
+        padding: 15px;
     }
     .calendar-modal  .modal-dialog {
         max-width: 1100px;
@@ -373,7 +374,7 @@
         flex-direction: row;
         gap: 10px;
         justify-content: center;
-        top: -50px;
+        top: -25px;
     }
     .program-area .nav .nav-item button {
         font-size: 15px;
@@ -460,7 +461,7 @@
          padding: 15px 25PX;
     }
     
-   ul.wbl-compare {
+   /* ul.wbl-compare {
         text-align: center;
         position: absolute;
         top: -10%;
@@ -470,27 +471,64 @@
         -moz-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
         -o-transform: translateX(-50%);
-    }
+    } */
       .wbl-compare-c .tier-num {
-        width: 290px;
+        width: 100%;
+        padding: 15px;
+        height: 65px;
     }
 
     .wbl-compare-c .tier-num p {
         font-size: 13px;
     }
-     .wbl-compare li.wbl-compare-c {
-        top: 0px !important;
-        left: 0px !important;
-        margin-bottom: 15px;
+    .wbl-compare-c .tier-num p.t-color{
+        display: none;
     }
-    .wbl-compare .wbl-compare-c {
-        position: relative;
+    .wbl-compare-c .tier-num span{
+        display: none;
     }
+    .wbl-compare-c .tier-num h3 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 0px
+    }
+    /* .wbl-compare .wbl-compare-c:nth-child(1) {
+        right:24%;
+        top: 0;
+    }
+       .wbl-compare .wbl-compare-c:nth-child(2) {
+        right: 15%;
+        top: 50%;
+    }
+    .wbl-compare .wbl-compare-c:nth-child(3) {
+        right: 22%;
+        bottom: -13%
+    }
+    .wbl-compare .wbl-compare-c:nth-child(4) {
+        left: 9%;
+        top: 66%;
+    }
+        .wbl-compare .wbl-compare-c:nth-child(5) {
+        left: 10%;
+        top: 7%
+    } */
+     .program-content {
+        margin-top:60px;
+    }
+    .hero-area.owl-theme button.owl-next, .hero-area.owl-theme button.owl-prev {
+        height: 45px;
+        width: 45px;
+        line-height: 45px;
+    }
+    .com-btn .sub-title {
+        font-size: 14px;
+    }
+     .wbl-compare-c .tier-num {
+        padding: 12px;
+    }
+    
 }
 
-@media (min-width: 576px) and (max-width: 991px) {
-
-}
 @media (min-width: 320px) and (max-width: 575px) {
        p,
     .t-14 {
@@ -503,7 +541,7 @@
         margin-bottom: 20px;
     }
     .program-content {
-        margin-top: 160px;
+        margin-top:60px;
     }
     .title {
         font-size: 17px;
@@ -555,5 +593,164 @@
     }
     .mean-container .mean-nav ul li a {
         font-weight: 500;
+    }
+    .hero-slider h1 {
+        font-size: 21px;
+        line-height: 1.2;
+    }
+        .com-btn .title {
+        font-size: 15px;
+    }
+    
+}
+/* @media (min-width: 320px) and (max-width:675px) {
+.wbl-compare .wbl-compare-c:nth-child(1) {
+        right: 21%;
+        top: 0;
+    }
+    .wbl-compare .wbl-compare-c:nth-child(4) {
+        left: 6%;
+        top: 66%;
+    }
+} */
+/* @media (min-width: 376px) and (max-width:400px) {
+     .wbl-compare-c .tier-num {
+        padding: 12px;
+    }
+    .wbl-compare .wbl-compare-c:nth-child(1) {
+        right:14%;
+        top: 0;
+    }
+       .wbl-compare .wbl-compare-c:nth-child(2) {
+        right: 4%;
+        top: 50%;
+    }
+    .wbl-compare .wbl-compare-c:nth-child(3) {
+        right: 18%;
+        bottom: -17%
+    }
+    .wbl-compare .wbl-compare-c:nth-child(4) {
+        left: 2%;
+        top: 56%;
+    }
+    .wbl-compare .wbl-compare-c:nth-child(5) {
+        left: 7%;
+        top: 1%;
+    }
+    
+} */
+ @media (min-width: 377px) and (max-width: 400px){
+   
+    .wbl-compare .wbl-compare-c:nth-child(1) {
+        right:18%;
+        top: 0;
+    }
+       .wbl-compare .wbl-compare-c:nth-child(2) {
+        right: 4%;
+        top: 49.5%;
+    }
+    .wbl-compare .wbl-compare-c:nth-child(3) {
+        right: 18%;
+        bottom: -13%
+    }
+    .wbl-compare .wbl-compare-c:nth-child(4) {
+        left: 2%;
+        top: 56%;
+    }
+    .wbl-compare .wbl-compare-c:nth-child(5) {
+        left: 7%;
+        top: 6%;
+    }
+    
+}
+@media (min-width: 401px) and (max-width: 767px){
+ .wbl-compare .wbl-compare-c:nth-child(1) {
+        right:20%;
+        top: 0;
+    }
+       .wbl-compare .wbl-compare-c:nth-child(2) {
+        right: 4%;
+        top: 49.5%;
+    }
+    .wbl-compare .wbl-compare-c:nth-child(3) {
+        right: 18%;
+        bottom: -13%
+    }
+    .wbl-compare .wbl-compare-c:nth-child(4) {
+        left: 5%;
+        top: 57%;
+    }
+    .wbl-compare .wbl-compare-c:nth-child(5) {
+        left: 7%;
+        top: 6%;
+    }
+}
+@media (min-width: 377px) and (max-width: 400px){
+ .wbl-compare .wbl-compare-c:nth-child(1) {
+        right:18%;
+        top: 0;
+    }
+       .wbl-compare .wbl-compare-c:nth-child(2) {
+        right: 4%;
+        top: 49.5%;
+    }
+    .wbl-compare .wbl-compare-c:nth-child(3) {
+        right: 18%;
+        bottom: -13%
+    }
+    .wbl-compare .wbl-compare-c:nth-child(4) {
+        left: 2%;
+        top: 56%;
+    }
+    .wbl-compare .wbl-compare-c:nth-child(5) {
+        left: 7%;
+        top: 6%;
+    }
+}
+@media (min-width: 361px) and (max-width: 376px){
+   
+    .wbl-compare .wbl-compare-c:nth-child(1) {
+        right:18%;
+        top: 0;
+    }
+       .wbl-compare .wbl-compare-c:nth-child(2) {
+        right: 4%;
+        top: 49.5%;
+    }
+    .wbl-compare .wbl-compare-c:nth-child(3) {
+        right: 18%;
+        bottom: -13%
+    }
+    .wbl-compare .wbl-compare-c:nth-child(4) {
+        left: 2%;
+        top: 56%;
+    }
+    .wbl-compare .wbl-compare-c:nth-child(5) {
+        left: 7%;
+        top: 6%;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 360px){
+ .wbl-compare .wbl-compare-c:nth-child(1) {
+        right:17%;
+        top: 0;
+    }
+       .wbl-compare .wbl-compare-c:nth-child(2) {
+        right: 4%;
+        top: 50%;
+    }
+    .wbl-compare .wbl-compare-c:nth-child(3) {
+        right: 18%;
+        bottom: -15%
+    }
+    .wbl-compare .wbl-compare-c:nth-child(4) {
+        left: 2%;
+        top: 55%;
+    }
+    .wbl-compare .wbl-compare-c:nth-child(5) {
+        left: 7%;
+        top: 4%;
     }
 }
