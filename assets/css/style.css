@@ -1720,6 +1720,7 @@ Main Footer
 .wbl-compare-c .tier-num .tier-t {
     font-family: 'Inter', sans-serif;
     line-height: 10px;
+    margin-bottom: 3px;
 }
 
 .wbl-compare .wbl-compare-c {
@@ -2031,7 +2032,7 @@ top:160px; */
   .vodcaster-name{
     font-weight: 800;
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1;
     margin-bottom: 5px;
   }
@@ -2052,7 +2053,7 @@ top:160px; */
 .vodcaster-desi{
     font-weight: 700;
     color: #fff;
-    font-size: 25px;
+    font-size: 18px;
     line-height: 1;
     font-style: italic;
     margin-bottom: .75rem;
@@ -4355,4 +4356,6 @@ footer .top-footer img {
     width: 25px;
     height: 25px;
 }
-   
+   .testimonial-section-two .common-title {
+        font-size: 24px;
+    }
